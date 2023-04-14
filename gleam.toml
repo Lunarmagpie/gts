@@ -2,7 +2,7 @@ name = "gts"
 version = "0.0.1"
 description = "Opinionated bindings to erlang's ets tables."
 target = "erlang"
-licences = ["GPLv2"]
+licences = ["MPL-2.0"]
 repository = { type = "github", user = "lunarmagpie", repo = "gts" }
 links = [{ title = "Website", href = "https://github.com/lunarmagpie/gts" }]
 
