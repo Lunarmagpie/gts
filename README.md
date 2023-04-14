@@ -7,18 +7,30 @@ A Gleam project
 
 ## Quick start
 
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-gleam shell # Run an Erlang shell
+```rust
+import gleam/io
+import ets/builder
+import ets/table/set
+
+pub fn main() {
+  let set: set.Set(String, String) =
+    builder.new("table_name")
+    |> builder.set()
+
+  set
+  |> set.insert("hello", "world")
+
+  set
+  |> set.lookup("hello")
+  |> set.debug
+}
 ```
 
 ## Installation
 
-If available on Hex this package can be added to your Gleam project:
+This package is available on hex:
 
 ```sh
 gleam add grt
 ```
-
-and its documentation can be found at <https://hexdocs.pm/grt>.
+Its documentation can be found at <https://hexdocs.pm/grt>.
