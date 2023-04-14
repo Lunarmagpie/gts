@@ -3,7 +3,10 @@
 [![Package Version](https://img.shields.io/hexpm/v/grt)](https://hex.pm/packages/grt)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/grt/)
 
-A Gleam project
+Opinionated bindings to erlang's [ets tables](https://www.erlang.org/doc/man/ets.html).
+
+If you aren't familiar with ets tables, [this](https://elixirschool.com/en/lessons/storage/ets) is a good introduction.
+
 
 ## Quick start
 
