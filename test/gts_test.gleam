@@ -11,7 +11,7 @@ pub fn main() {
 // gleeunit test functions end in `_test`
 pub fn test_set_insert() {
   builder.new("test_name")
-    |> builder.build_set()
+  |> builder.set()
   |> set.insert("hello", "world")
   |> set.lookup("hello")
   |> should.equal(Ok("world"))
@@ -19,7 +19,7 @@ pub fn test_set_insert() {
 
 pub fn test_ordered_set() {
   builder.new("test_name")
-    |> builder.build_ordered_set()
+  |> builder.ordered_set()
   |> ordered_set.insert(1, 2)
   |> ordered_set.insert(2, 3)
   |> ordered_set.lookup(1)
