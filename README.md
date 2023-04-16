@@ -1,4 +1,4 @@
-# grt
+# gts
 
 [![Package Version](https://img.shields.io/hexpm/v/grt)](https://hex.pm/packages/grt)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/grt/)
@@ -34,6 +34,6 @@ pub fn main() {
 This package is available on hex:
 
 ```sh
-gleam add grt
+gleam add gts
 ```
 Its documentation can be found at <https://hexdocs.pm/grt>.
