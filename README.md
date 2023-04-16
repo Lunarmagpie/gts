@@ -10,7 +10,7 @@ If you aren't familiar with ets tables, [this](https://elixirschool.com/en/lesso
 
 ## Quick start
 
-```rust
+```gleam
 import gleam/io
 import ets/builder
 import ets/table/set
