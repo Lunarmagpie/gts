@@ -1,7 +1,7 @@
 # gts
 
-[![Package Version](https://img.shields.io/hexpm/v/grt)](https://hex.pm/packages/grt)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/grt/)
+[![Package Version](https://img.shields.io/hexpm/v/gts)](https://hex.pm/packages/gts)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/gts/)
 
 Opinionated bindings to erlang's [ets tables](https://www.erlang.org/doc/man/ets.html).
 
@@ -36,4 +36,4 @@ This package is available on hex:
 ```sh
 gleam add gts
 ```
-Its documentation can be found at <https://hexdocs.pm/grt>.
+Its documentation can be found at <https://hexdocs.pm/gts>.
